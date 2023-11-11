@@ -16,6 +16,14 @@
 		028FA3932AFF2A89009CDA1D /* FashionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3922AFF2A89009CDA1D /* FashionUITests.swift */; };
 		028FA3952AFF2A89009CDA1D /* FashionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3942AFF2A89009CDA1D /* FashionUITestsLaunchTests.swift */; };
 		028FA3AA2AFF2D46009CDA1D /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3A92AFF2D46009CDA1D /* MainButton.swift */; };
+		028FA3AC2AFF346B009CDA1D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3AB2AFF346B009CDA1D /* SplashView.swift */; };
+		028FA3AE2AFF347C009CDA1D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3AD2AFF347C009CDA1D /* WelcomeView.swift */; };
+		028FA3B22AFF3B9C009CDA1D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3B12AFF3B9C009CDA1D /* SignInView.swift */; };
+		028FA3B42AFF41B3009CDA1D /* CustomLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3B32AFF41B3009CDA1D /* CustomLink.swift */; };
+		028FA3B62AFF45D1009CDA1D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3B52AFF45D1009CDA1D /* SignUpView.swift */; };
+		028FA3B82AFF5647009CDA1D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3B72AFF5647009CDA1D /* CustomTextField.swift */; };
+		028FA3BC2AFF6029009CDA1D /* SocialLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3BB2AFF6029009CDA1D /* SocialLoginButton.swift */; };
+		028FA3BE2AFF621D009CDA1D /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3BD2AFF621D009CDA1D /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,14 @@
 		028FA3922AFF2A89009CDA1D /* FashionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionUITests.swift; sourceTree = "<group>"; };
 		028FA3942AFF2A89009CDA1D /* FashionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		028FA3A92AFF2D46009CDA1D /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		028FA3AB2AFF346B009CDA1D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		028FA3AD2AFF347C009CDA1D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		028FA3B12AFF3B9C009CDA1D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		028FA3B32AFF41B3009CDA1D /* CustomLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLink.swift; sourceTree = "<group>"; };
+		028FA3B52AFF45D1009CDA1D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		028FA3B72AFF5647009CDA1D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		028FA3BB2AFF6029009CDA1D /* SocialLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginButton.swift; sourceTree = "<group>"; };
+		028FA3BD2AFF621D009CDA1D /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +165,10 @@
 		028FA3A22AFF2B0B009CDA1D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				028FA3AB2AFF346B009CDA1D /* SplashView.swift */,
+				028FA3AD2AFF347C009CDA1D /* WelcomeView.swift */,
+				028FA3B12AFF3B9C009CDA1D /* SignInView.swift */,
+				028FA3B52AFF45D1009CDA1D /* SignUpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,6 +213,10 @@
 			isa = PBXGroup;
 			children = (
 				028FA3A92AFF2D46009CDA1D /* MainButton.swift */,
+				028FA3B32AFF41B3009CDA1D /* CustomLink.swift */,
+				028FA3B72AFF5647009CDA1D /* CustomTextField.swift */,
+				028FA3BB2AFF6029009CDA1D /* SocialLoginButton.swift */,
+				028FA3BD2AFF621D009CDA1D /* CheckBox.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -328,8 +352,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				028FA3AA2AFF2D46009CDA1D /* MainButton.swift in Sources */,
+				028FA3B22AFF3B9C009CDA1D /* SignInView.swift in Sources */,
+				028FA3AE2AFF347C009CDA1D /* WelcomeView.swift in Sources */,
+				028FA3B42AFF41B3009CDA1D /* CustomLink.swift in Sources */,
+				028FA3B82AFF5647009CDA1D /* CustomTextField.swift in Sources */,
+				028FA3BC2AFF6029009CDA1D /* SocialLoginButton.swift in Sources */,
 				028FA3782AFF2A87009CDA1D /* ContentView.swift in Sources */,
+				028FA3AC2AFF346B009CDA1D /* SplashView.swift in Sources */,
+				028FA3BE2AFF621D009CDA1D /* CheckBox.swift in Sources */,
 				028FA37A2AFF2A87009CDA1D /* Item.swift in Sources */,
+				028FA3B62AFF45D1009CDA1D /* SignUpView.swift in Sources */,
 				028FA3762AFF2A87009CDA1D /* FashionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
