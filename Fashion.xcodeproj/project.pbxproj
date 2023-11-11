@@ -15,6 +15,7 @@
 		028FA3892AFF2A89009CDA1D /* FashionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3882AFF2A89009CDA1D /* FashionTests.swift */; };
 		028FA3932AFF2A89009CDA1D /* FashionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3922AFF2A89009CDA1D /* FashionUITests.swift */; };
 		028FA3952AFF2A89009CDA1D /* FashionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3942AFF2A89009CDA1D /* FashionUITestsLaunchTests.swift */; };
+		028FA3AA2AFF2D46009CDA1D /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FA3A92AFF2D46009CDA1D /* MainButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		028FA38E2AFF2A89009CDA1D /* FashionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		028FA3922AFF2A89009CDA1D /* FashionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionUITests.swift; sourceTree = "<group>"; };
 		028FA3942AFF2A89009CDA1D /* FashionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		028FA3A92AFF2D46009CDA1D /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		028FA3742AFF2A87009CDA1D /* Fashion */ = {
 			isa = PBXGroup;
 			children = (
+				028FA3A82AFF2CFF009CDA1D /* Components */,
 				028FA3A72AFF2B2B009CDA1D /* Extensions */,
 				028FA3A62AFF2B26009CDA1D /* Resources */,
 				028FA3A52AFF2B21009CDA1D /* Helpers */,
@@ -184,6 +187,14 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		028FA3A82AFF2CFF009CDA1D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				028FA3A92AFF2D46009CDA1D /* MainButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028FA3AA2AFF2D46009CDA1D /* MainButton.swift in Sources */,
 				028FA3782AFF2A87009CDA1D /* ContentView.swift in Sources */,
 				028FA37A2AFF2A87009CDA1D /* Item.swift in Sources */,
 				028FA3762AFF2A87009CDA1D /* FashionApp.swift in Sources */,
