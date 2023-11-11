@@ -7,20 +7,22 @@
 
 import SwiftUI
 
-struct MainButton: View {
-    @Binding private var text: String
-    private var handleButton: () -> Void
+struct MainButton<Label>: View where Label: View {
+    private var text: String
+    private var handleButton: (() -> Void)?
+    private var label: () -> Label
     @State private var isPressed = false
     
-    init(text: Binding<String>, handleButton: @escaping () -> Void) {
-        self._text = text
+    init(text: String, handleButton: (() -> Void)? = nil, @ViewBuilder label: @escaping () -> Label) {
+        self.text = text
         self.handleButton = handleButton
+        self.label = label
     }
     
     var body: some View {
         HStack(alignment: .center, spacing: 4) {
             Button(action: {
-                handleButton()
+                handleButton?()
                 withAnimation(.easeInOut(duration: 0.2)) {
                     isPressed = true
                 }
@@ -30,7 +32,7 @@ struct MainButton: View {
                     }
                 }
             }) {
-                Text(text)
+                label()
             }
             .frame(width: 360, height: 64)
             .background(isPressed ? Color.gray.opacity(0.1) : Color.brown)
@@ -44,7 +46,9 @@ struct MainButton: View {
 }
 
 #Preview {
-    MainButton(text: .constant("Let's Get Started"), handleButton: {
+    MainButton(text: "Let's Get Started", handleButton: {
         print("...")
-    })
+    }) {
+        Text("Test")
+    }
 }
